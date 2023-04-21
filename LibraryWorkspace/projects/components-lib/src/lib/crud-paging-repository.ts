@@ -8,6 +8,8 @@ export interface CrudPagingRepository<PageItem, T, ID, CreateRequest, UpdateRequ
 
 }
 
+export const p = 222;
+
 export interface Page<T> {
     records: T[];
     totalRecords: number;
